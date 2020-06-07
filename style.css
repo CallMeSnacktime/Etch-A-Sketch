@@ -1,0 +1,62 @@
+body{
+    min-width: 650px; 
+    background: rgb(209, 207, 207);
+}
+
+button{
+    margin: 0 80px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    box-shadow: 3px 4px #888888;
+}
+
+.base{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.col{ 
+    width: 100%;
+    display:flex;
+    flex:auto; 
+    color: blue;
+}
+
+.col:hover{
+    background-color:red;
+}
+
+#container{
+    width: 600px;
+    height: 500px;
+    border: solid red 20px;   
+    display: flex;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+    box-shadow: 5px 10px #888888;
+}
+
+.game{
+    justify-content: center;
+}
+
+.title{
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+}
